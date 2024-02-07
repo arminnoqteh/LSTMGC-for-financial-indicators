@@ -4,7 +4,7 @@ import keras
 from keras import layers
 from keras import ops
 
-from graph_construction import GraphInfo
+from src.graph_construction import GraphInfo
 
 
 class GraphConv(layers.Layer):
